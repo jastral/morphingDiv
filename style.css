@@ -1,0 +1,27 @@
+#shape {
+    height: 300px;
+    width: 300px;
+    background: tomato;
+    margin: auto auto auto auto;
+    border: 1px solid black;
+    animation: colorchange 5s infinite;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+body{
+    display: flex;
+    margin: auto auto auto auto;
+}
+
+@keyframes colorchange{
+  0%{background:red; border-radius: 0%}25%{background:yellow;border-radius: 25%}
+}
+
+@keyframes colorchange{
+  75%{background:green;border-radius: 75%}100%{background:blue;border-radius: 0%}
+}
